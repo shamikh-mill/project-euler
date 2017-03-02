@@ -3,15 +3,10 @@
 
 
 list = [1, 2] 
-
 while (max(list) < 4000000): 
 	list.append(list[-1] + list[-2])
 
-
 sum = 0 
 for x in list: 
-	if x % 2 == 0: 
-		sum += x 
-
-
-print sum 
+	if x % 2 == 0: sum += x 
+print (sum) 
